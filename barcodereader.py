@@ -68,6 +68,10 @@ def readBarcodes():
                         conn1.sendall(bytes(current_barcode.encode('utf-8')))
                         
                     current_barcode = ""
+                  elif keycode == 'KEY_CAPSLOCK':
+                    print("caps key");
+                  elif keycode == 'KEY_LEFTSHIFT':
+                    print("shift key");
                   else:
                     print(keycode);
                     current_barcode += keycode[4:]
@@ -89,9 +93,9 @@ def find_device():
   devices = [evdev.InputDevice(fn) for fn in evdev.list_devices()]
   for d in devices:
       print("List device " + d.name)
-      #if d.name == device_name:
-      print("Found device " + d.name)
-      device = d
+      if "code" in d.name.lower():
+          print("Found device " + d.name)
+          device = d
           
   return device
 
