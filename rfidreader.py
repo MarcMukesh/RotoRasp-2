@@ -13,6 +13,10 @@ ser = serial.Serial(last_dev, 19200) # here you have to write your port. If you 
 #server_address = ('192.168.137.105', 10005)
 #commented for check git pull
 #commented for check git pull14444343
+
+#commented for check git pull14444343
+#commented for check git pull14444343
+#commented for check git pull14444343
 HOST = ''   # Symbolic name, meaning all available interfaces
 PORT = 10101 # Arbitrary non-privileged port
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
