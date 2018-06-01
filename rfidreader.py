@@ -17,6 +17,8 @@ ser = serial.Serial(last_dev, 19200) # here you have to write your port. If you 
 #commented for check git pull14444343
 #commented for check git pull14444343
 #commented for check git pull14444343
+#commented for check git pull14444343
+#commented for check git pull14444343
 
 
 
