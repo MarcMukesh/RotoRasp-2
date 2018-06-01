@@ -17,12 +17,19 @@ ser = serial.Serial(last_dev, 19200) # here you have to write your port. If you 
 #commented for check git pull14444343
 #commented for check git pull14444343
 #commented for check git pull14444343
+
+
+
+
+
+
 HOST = ''   # Symbolic name, meaning all available interfaces
 PORT = 10101 # Arbitrary non-privileged port
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print ('Socket created');
 conn1=None
 
+print('checking');
 #print ('connecting')
 #sock.connect(server_address)
 #print ('connected')
