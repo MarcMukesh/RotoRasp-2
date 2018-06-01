@@ -8,6 +8,8 @@ import datetime
 import socket
 from _thread import *
 # responsible for uploading the barcodes to the azure storage queue.
+#commented for check git pull
+
 class BarcodeUploader:
   def __init__(self):
   
