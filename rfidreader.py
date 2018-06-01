@@ -11,14 +11,6 @@ print(last_dev);
 ser = serial.Serial(last_dev, 19200) # here you have to write your port. If you dont know how to find it just write ls -l /dev/tty.* in your terminal (i'm using mac)
 #sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #server_address = ('192.168.137.105', 10005)
-#commented for check git pull
-#commented for check git pull14444343
-
-#commented for check git pull14444343
-#commented for check git pull14444343
-#commented for check git pull14444343
-#commented for check git pull14444343
-#commented for check git pull14444343
 
 
 
