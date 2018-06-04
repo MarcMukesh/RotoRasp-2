@@ -14,6 +14,7 @@ ser = serial.Serial(last_dev, 19200) # here you have to write your port. If you 
 
 print('checking');
 print('checking');
+print('checking11');
 
 
 
