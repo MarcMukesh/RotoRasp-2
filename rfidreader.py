@@ -12,9 +12,7 @@ ser = serial.Serial(last_dev, 19200) # here you have to write your port. If you 
 #sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #server_address = ('192.168.137.105', 10005)
 
-print('checking20');
-print('checking21');
-print('checking22');
+print('checking23');
 
 
 
