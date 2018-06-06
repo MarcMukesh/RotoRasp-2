@@ -13,6 +13,8 @@ ser = serial.Serial(last_dev, 19200) # here you have to write your port. If you 
 #server_address = ('192.168.137.105', 10005)
 
 print('checking23');
+print('checking24');
+print('checking25');
 
 
 
